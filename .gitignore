@@ -1,0 +1,21 @@
+# ===== IDE =====
+.idea/
+*.iml
+.vscode/
+
+# ===== Backend (Spring Boot / Maven) =====
+target/
+*.class
+*.log
+
+# ===== Frontend (React / Node) =====
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+
+# ===== Sistema operativo =====
+Thumbs.db
+.DS_Store
+
+# ===== Variables de entorno =====
+.env
