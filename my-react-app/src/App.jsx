@@ -6,20 +6,12 @@ import './App.css'
 import Login from "./pages/Login";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <section id="center">
-        <div className='Login'>
-          <p>Login</p>
-        </div>
-      </section>
-
-      <div className="ticks"></div>
-      <section id="spacer"></section>
-    </>
-  )
+    <div>
+      <Login />
+    </div>
+  );
 }
 
-export default App
+export default App;
+
