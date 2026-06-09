@@ -4,7 +4,7 @@
 .vscode/
 
 # ===== Backend (Spring Boot / Maven) =====
-backend/target/
+target/
 *.class
 *.log
 
